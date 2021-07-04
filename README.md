@@ -1,4 +1,6 @@
 # Algorithms
+[![Build Status](https://travis-ci.com/aaabdyrahmanov/algorithms.svg?branch=master)](https://travis-ci.com/aaabdyrahmanov/algorithms)
+[![Coverage Status](https://coveralls.io/repos/github/aaabdyrahmanov/algorithms/badge.svg)](https://coveralls.io/github/aaabdyrahmanov/algorithms)
 
 ## Basic Overview
 Repo is based on challenge solutions of the coding platforms:

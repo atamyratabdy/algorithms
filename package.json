@@ -6,9 +6,20 @@
     "node": ">= 12.14.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "devDependencies": {
     "jest": "^26.6.3"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+        "**/*.js",
+        "!data/keyMap.js",
+        "!/node_modules/"
+    ],
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "testTimeout": 60000
   }
 }
